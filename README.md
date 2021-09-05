@@ -3,7 +3,8 @@ Transpiled [CCXT exchange library](https://github.com/ccxt/ccxt) from their orig
 
 ## Features
 - support 100+ cryptocurrency exchanges with a unified API
-- **Go code generator**: write auto-generated Go code based on parser result
+- fully implemented public and private APIs for fetching market data, trading, arbitrage, etc..
+
 
 ### Requirements
 ```
