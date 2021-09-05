@@ -18,6 +18,12 @@ go get https://github.com/prompt-cash/ccxt-go
 Take a look into [ccxt_test.go](pkg/ccxt/ccxt_test.go) for an example how to get started.
 
 
+## Alpha Release
+It’s all still very alpha, so no guarantees of any kind.
+Especially some rarely used helper functions are not implemented yet and
+just panic with a todo message. If you need these exchanges you will
+need to implement those.
+
 ## Contact
 [Website](https://prompt.cash/) -
 [Twitter](https://twitter.com/CashPrompt) -
