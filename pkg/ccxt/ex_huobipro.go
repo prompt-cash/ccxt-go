@@ -1,7 +1,6 @@
 package ccxt
 
-import (
-)
+import ()
 
 type Huobipro struct {
 	*ExchangeBase
@@ -14,7 +13,6 @@ func init() {
 	Exchanges = append(Exchanges, exchange)
 }
 
-func (this *Huobipro) Describe(goArgs ...*Variant) *Variant{
-  return this.DeepExtend(this.BaseDescribe(), MkMap(&VarMap{"id":MkString("huobipro") }));
+func (this *Huobipro) Describe(goArgs ...*Variant) *Variant {
+	return this.DeepExtend(this.BaseDescribe(), MkMap(&VarMap{"id": MkString("huobipro")}))
 }
-

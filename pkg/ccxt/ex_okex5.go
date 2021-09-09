@@ -1,7 +1,6 @@
 package ccxt
 
-import (
-)
+import ()
 
 type Okex5 struct {
 	*ExchangeBase
@@ -14,7 +13,6 @@ func init() {
 	Exchanges = append(Exchanges, exchange)
 }
 
-func (this *Okex5) Describe(goArgs ...*Variant) *Variant{
-  return this.DeepExtend(this.BaseDescribe(), MkMap(&VarMap{"id":MkString("okex5") }));
+func (this *Okex5) Describe(goArgs ...*Variant) *Variant {
+	return this.DeepExtend(this.BaseDescribe(), MkMap(&VarMap{"id": MkString("okex5")}))
 }
-
