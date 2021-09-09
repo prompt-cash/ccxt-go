@@ -7,6 +7,12 @@ import (
 
 // exchange base
 
+//
+// This file implements the most basic aspects of our exchange base, it implements the call facilities for
+// "virtual functions" and the means of retreiving properties form the values member, all this.something
+// accesses are refactored to *this.At("something") and mapped ontu out values Variant
+//
+
 type Exchange interface {
 }
 

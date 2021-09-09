@@ -1,0 +1,22 @@
+App:
+  Foo: "some-setting"
+
+Testing:
+  CCXTDir:
+    Win: "...\\ccxt-master"
+    OSX: ".../ccxt_latest"
+
+  CCXTGoDir:
+    Win: "./pkg/ccxt"
+    OSX: "./pkg/ccxt"
+
+# Logger settings
+Log:
+  Level: debug
+  Color: true
+  JSON: false
+  EnableFile: false
+  EnableBuffer: false
+  BufferLines: 1000
+  FilterPrefixes:
+    - "HTTP:"

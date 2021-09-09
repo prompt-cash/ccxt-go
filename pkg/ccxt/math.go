@@ -2,6 +2,10 @@ package ccxt
 
 import "math"
 
+//
+// basic port of javascripts Math object
+//
+
 type MathStruct struct {
 }
 

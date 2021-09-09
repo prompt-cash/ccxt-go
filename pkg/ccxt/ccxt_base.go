@@ -8,6 +8,11 @@ import (
 	"time"
 )
 
+//
+// This file implements mostly transpiled, often with manual fixes, and always with manual clean up, functions
+// that are required by most exchanges
+//
+
 func (this *ExchangeBase) Account() *Variant {
 	return MkMap(&VarMap{
 		"free":  MkUndefined(),

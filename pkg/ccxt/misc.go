@@ -1,5 +1,9 @@
 package ccxt
 
+//
+// variouse other Js stuff
+//
+
 type JSONStruct struct {
 }
 

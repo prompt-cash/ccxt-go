@@ -8,6 +8,10 @@ import (
 	"time"
 )
 
+//
+// This file implements the rest api request mechanisms
+//
+
 func (this *ExchangeBase) BuildApiPath(name string, prefix string, level int, v *Variant) (path string, method string, type_ string) {
 	if v.Type == Map {
 		for key, value := range *v.ToMap() {

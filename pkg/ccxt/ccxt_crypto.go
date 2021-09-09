@@ -11,6 +11,10 @@ import (
 	"golang.org/x/crypto/sha3"
 )
 
+//
+// this file implements cryptographic functions
+//
+
 func (this *ExchangeBase) Hash(goArgs ...*Variant) *Variant {
 	request := GoGetArg(goArgs, 0, MkUndefined())
 	hash := GoGetArg(goArgs, 1, MkString("md5"))

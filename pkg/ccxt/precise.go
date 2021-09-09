@@ -6,6 +6,10 @@ import (
 	"strings"
 )
 
+//
+// Go Port of the precision object used by ccxt
+//
+
 type PreciseStruct struct {
 	Decimals *Variant
 	Integer  big.Int

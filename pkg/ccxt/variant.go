@@ -10,6 +10,14 @@ import (
 	"strings"
 )
 
+//
+// Go is a strongly typed language while the other CCXT languages are not
+// in order to make the transpilation work we use an own universal data type
+// in order to make this work we need to convert all equations to chains of
+// Op... calls that implement all the operators, it would be so convenient if
+// go would allow for operator overloading, like c/c++ does, but it does not :(
+//
+
 type VariantType uint8
 
 const (

@@ -1,10 +1,15 @@
 package ccxt
 
+//
+// variouse other ccxt functions
+//
+
 import (
 	"github.com/prompt-cash/js-transpiler/utils"
 	"regexp"
 	"sort"
 	"strings"
+	"time"
 )
 
 func (this *ExchangeBase) ArrayConcat(goArgs ...*Variant) *Variant {
@@ -240,4 +245,14 @@ func (this *ExchangeBase) FindBroadlyMatchedKey(v *Variant, str *Variant) *Varia
 		}
 	}
 	return nil
+}
+
+func (this *ExchangeBase) Milliseconds() *Variant {
+	return MkInteger(time.Now().UnixNano() / int64(time.Millisecond))
+}
+func (this *ExchangeBase) Microseconds() *Variant {
+	return MkInteger(time.Now().UnixNano() / int64(time.Microsecond))
+}
+func (this *ExchangeBase) Seconds() *Variant {
+	return MkInteger(time.Now().UnixNano() / int64(time.Second))
 }

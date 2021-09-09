@@ -1,5 +1,9 @@
 package ccxt
 
+//
+// This file implements the initializarion and consruction of a exchange object, it holds default values and alike
+//
+
 // "constant" values
 
 var DECIMAL_PLACES *Variant = MkInteger(0)
