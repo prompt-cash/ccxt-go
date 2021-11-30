@@ -2,8 +2,8 @@ package app
 
 import (
 	"context"
-	"github.com/prompt-cash/js-transpiler/log"
-	"github.com/prompt-cash/js-transpiler/utils/randstr"
+	"github.com/prompt-cash/ccxt-go/log"
+	"github.com/prompt-cash/ccxt-go/utils/randstr"
 )
 
 type Context struct {

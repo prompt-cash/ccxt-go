@@ -2,9 +2,9 @@ package transpiler
 
 import (
 	"fmt"
-	"github.com/prompt-cash/js-transpiler/log"
-	"github.com/prompt-cash/js-transpiler/pkg/turing_parser"
-	"github.com/prompt-cash/js-transpiler/utils"
+	"github.com/prompt-cash/ccxt-go/log"
+	"github.com/prompt-cash/ccxt-go/pkg/turing_parser"
+	"github.com/prompt-cash/ccxt-go/utils"
 	"io/ioutil"
 	"path"
 	"path/filepath"

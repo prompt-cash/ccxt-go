@@ -2,7 +2,7 @@ package transpiler
 
 import (
 	"github.com/emirpasic/gods/lists/arraylist"
-	"github.com/prompt-cash/js-transpiler/pkg/turing_parser"
+	"github.com/prompt-cash/ccxt-go/pkg/turing_parser"
 )
 
 type GoArgument struct {

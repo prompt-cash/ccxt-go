@@ -2,7 +2,7 @@ package app
 
 import (
 	"fmt"
-	"github.com/prompt-cash/js-transpiler/pkg/turing_parser"
+	"github.com/prompt-cash/ccxt-go/pkg/turing_parser"
 	"io/ioutil"
 	"testing"
 )

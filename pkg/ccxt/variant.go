@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/prompt-cash/js-transpiler/pkg/turing_parser"
+	"github.com/prompt-cash/ccxt-go/pkg/turing_parser"
 	"sort"
 	"strconv"
 	"strings"

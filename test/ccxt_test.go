@@ -2,7 +2,7 @@ package test
 
 import (
 	"fmt"
-	"github.com/prompt-cash/js-transpiler/pkg/ccxt"
+	"github.com/prompt-cash/ccxt-go/pkg/ccxt"
 	"testing"
 )
 

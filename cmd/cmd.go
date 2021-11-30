@@ -3,7 +3,7 @@ package cmd
 import (
 	"context"
 	"fmt"
-	"github.com/prompt-cash/js-transpiler/log"
+	"github.com/prompt-cash/ccxt-go/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"os"

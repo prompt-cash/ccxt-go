@@ -5,7 +5,7 @@ package ccxt
 //
 
 import (
-	"github.com/prompt-cash/js-transpiler/utils"
+	"github.com/prompt-cash/ccxt-go/utils"
 	"regexp"
 	"sort"
 	"strings"

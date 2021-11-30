@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/prompt-cash/js-transpiler/cmd"
+	"github.com/prompt-cash/ccxt-go/cmd"
 	"runtime"
 )
 
